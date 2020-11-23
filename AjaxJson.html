@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <script>
+
+        $(function (ev) {
+
+            $.ajax({
+                type: "GET",
+                url: "AjaxJson.php",
+                success: function (xh) {
+                    // xh拿到的是php中
+                    var res = xh;
+                    // 转换成js对象
+                    var obj = JSON.parse(xh);
+                    console.log(obj.userName);
+                    console.log(obj.userPassword);
+                },
+                error: function (xh) {
+                    alert(xh.status);
+                }
+            });
+        })
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>
