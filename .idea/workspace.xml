@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4fe282a7-0268-4d65-a9b3-4a1d72097e9a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kflLYRrzK2oYwy0SIgDkAw4ylf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\AjaxLearning\source" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\AjaxLearning" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4fe282a7-0268-4d65-a9b3-4a1d72097e9a" name="Default Changelist" comment="" />
+      <created>1606099470836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606099470836</updated>
+      <workItem from="1606099471967" duration="10898000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="74" key="#PHP" timestamp="1606107761199">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="451" y="74" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1606107761199" />
+    <state x="556" y="416" key="NewPhpFileDialog" timestamp="1606109412163">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="556" y="416" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1606109412163" />
+    <state x="227" y="138" key="SettingsEditor" timestamp="1606104399747">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="227" y="138" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1606104399747" />
+  </component>
+</project>

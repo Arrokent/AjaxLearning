@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <script>
+
+        $(function (ev) {
+
+        })
+
+    </script>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- post file 必须加 enctype="multipart/form-data" -->
+    <form action="post.php" method="post" enctype="multipart/form-data" style="width: 200px">
+
+        <input type="file" class="form-control" name="upFile">
+        <button type="submit" class="form-control">submit</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
