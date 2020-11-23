@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fe282a7-0268-4d65-a9b3-4a1d72097e9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jQueryAjax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AjaxXml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AjaxXml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AjaxGet.html" beforeDir="false" afterPath="$PROJECT_DIR$/AjaxGet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AjaxGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/AjaxGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get.html" beforeDir="false" afterPath="$PROJECT_DIR$/get.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,16 +61,32 @@
       <workItem from="1606099471967" duration="14486000" />
       <workItem from="1606123583497" duration="35000" />
     </task>
+    <task id="LOCAL-00001" summary="get，post发送到后端，ajax的异步get发送到后端，jQuery的封装ajax发送到后端">
+      <created>1606143421954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606143421954</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="get，post发送到后端，ajax的异步get发送到后端，jQuery的封装ajax发送到后端" />
+    <option name="LAST_COMMIT_MESSAGE" value="get，post发送到后端，ajax的异步get发送到后端，jQuery的封装ajax发送到后端" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="74" key="#PHP" timestamp="1606107761199">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="451" y="74" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1606107761199" />
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1606143420906">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1606143420906" />
     <state x="575" y="253" key="FileChooserDialogImpl" timestamp="1606124420659">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -85,10 +99,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="620" y="239" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1606115166002" />
-    <state x="556" y="416" key="NewPhpFileDialog" timestamp="1606109412163">
+    <state x="556" y="416" key="NewPhpFileDialog" timestamp="1606144138946">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="556" y="416" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1606109412163" />
+    <state x="556" y="416" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1606144138946" />
     <state x="227" y="138" key="SettingsEditor" timestamp="1606104399747">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
