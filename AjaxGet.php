@@ -1,3 +1,5 @@
 <?php
-echo "ajax page";
+//sleep(3);
+
+print_r($_GET);
 ?>

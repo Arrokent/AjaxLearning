@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <script>
+
+        $(function (ev) {
+
+            $.ajax({
+                type: "GET",
+                url: "AjaxGet.php",
+                data: "userName=Chibiken&userPassword=123456",
+                success: function (xh) {
+                    alert(xh);
+                },
+                error: function (xh) {
+                    alert(xh.status);
+                }
+            });
+        })
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

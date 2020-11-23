@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fe282a7-0268-4d65-a9b3-4a1d72097e9a" name="Default Changelist" comment="" />
+    <list default="true" id="4fe282a7-0268-4d65-a9b3-4a1d72097e9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jQueryAjax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AjaxGet.html" beforeDir="false" afterPath="$PROJECT_DIR$/AjaxGet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AjaxGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/AjaxGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get.html" beforeDir="false" afterPath="$PROJECT_DIR$/get.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +24,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kflLYRrzK2oYwy0SIgDkAw4ylf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,6 +39,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -46,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606099470836</updated>
-      <workItem from="1606099471967" duration="10898000" />
+      <workItem from="1606099471967" duration="14486000" />
+      <workItem from="1606123583497" duration="35000" />
     </task>
     <servers />
   </component>
@@ -58,6 +73,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="451" y="74" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1606107761199" />
+    <state x="575" y="253" key="FileChooserDialogImpl" timestamp="1606124420659">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="575" y="253" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606124420659" />
+    <state x="648" y="436" key="Github.ShareDialog" timestamp="1606115155557">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="648" y="436" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1606115155557" />
+    <state x="620" y="239" key="Github.UntrackedFilesDialog" timestamp="1606115166002">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="620" y="239" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1606115166002" />
     <state x="556" y="416" key="NewPhpFileDialog" timestamp="1606109412163">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -66,5 +93,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="227" y="138" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1606104399747" />
+    <state x="270" y="102" key="new project wizard" timestamp="1606123615821">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="102" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1606123615821" />
   </component>
 </project>

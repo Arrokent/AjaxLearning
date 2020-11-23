@@ -34,20 +34,84 @@
             // 4: 请求已完成，且响应已就绪
             // status: 200: "OK", 404: 未找到页面
             xmlhttp.onreadystatechange = function () {
-                if (xmlhttp.readyState == 4 && xmlhttp.status == 200 || xmlhttp.status == 304) {
+                if (xmlhttp.readyState == 4) {
                     // 5.处理返回结果
-                    console.log("Have received")
+                    if (xmlhttp.status == 200 || xmlhttp.status == 304)
+                        console.log("Have received");
+                    else
+                        console.log("Have not received");
                 }
             }
         }
 
+        function obj2str (obj) {
+            var res = [];
+            for (key in obj) {
+                res.push(encodeURIComponent(key)+"="+encodeURIComponent(obj[key]));
+            }
+            return res.join("&") // join 将数组转换成字符串，中间用&连接
+        }
+
+        // 封装ajax5步骤到一个函数
+        function ajax(url, obj, timeout, success, error) {
+            // 将url和obj拼接
+            // url?key=value&key=value
+            var str = obj2str(obj);
+
+            var xmlhttp = new XMLHttpRequest();
+
+            xmlhttp.open("GET", url + "?" + str, true);
+            xmlhttp.send();
+
+            xmlhttp.onreadystatechange = function () {
+                clearInterval(timer)
+
+                if (xmlhttp.readyState == 4) {
+                    if (xmlhttp.status == 200 || xmlhttp.status == 304)
+                        success(xmlhttp);
+                    else
+                        error(xmlhttp);
+                }
+            }
+
+            // setInterval: 在timeout(ms)后，启动前面的回调函数
+            if(timeout) {
+                timer = setInterval(function () {
+                    console.log("超时，中断请求");
+                    alert("超时，中断请求");
+                    xmlhttp.abort();
+                    clearInterval(timer);
+                }, timeout)
+            }
+        }
+
     </script>
+
+    <script>
+        $(function (ev) {
+
+            $("#ajaxRequest").click(function () {
+                ajax("AjaxGet.php", {
+                    "userName": "Chibiken",
+                    "userPassword": "123456"
+                }, 3000, function (xh) {
+                    console.log(xh.responseText);
+                }, function (xh) {
+                    console.log("请求失败");
+                })
+            })
+
+        })
+
+    </script>
+
 </head>
 <body>
 
 <div class="container">
 
     <button onclick=AjaxTest()>发送请求</button>
+    <button id="ajaxRequest">发送请求2</button>
 
 </div>
 
